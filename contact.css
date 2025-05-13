@@ -1,4 +1,4 @@
-/* Base Reset */
+/* Base  */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* Navigation */
+/* Navigation bar */
 header {
   position: relative;
   z-index: 999;
@@ -132,7 +132,7 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Responsive adjustments */
+/* Responsiveness */
 @media (max-width: 768px) {
   .contact form {
     padding: 20px;
@@ -168,7 +168,7 @@ footer {
   color: white;
 }
 
-/* Responsive */
+/* Responsive2 */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;

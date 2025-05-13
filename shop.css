@@ -1,4 +1,4 @@
-/* Base Reset */
+/* Base */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* Navigation */
+/* Navigation bar */
 header {
   z-index: 999;
 }
@@ -58,7 +58,7 @@ nav ul li a {
   width: 30px;
   height: 30px;
   object-fit: contain;
-  filter: brightness(0) saturate(100%) invert(0%); /* makes icon visible on white */
+  filter: brightness(0) saturate(100%) invert(0%);
 }
 
 .cart-count {
@@ -286,7 +286,7 @@ footer {
   color: white;
 }
 
-/* Responsive Breakpoints */
+/* Responsiveness */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
